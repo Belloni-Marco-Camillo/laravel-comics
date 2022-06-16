@@ -7,9 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
-<body class="container">
+<body >
     @include('partials.header')
-    <main >
+    <main>
         @yield('content')
     </main>
     @include('partials.footer')

@@ -1,2 +1,102 @@
 //
 @use 'bootstrap';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* color */
+
+.primary-color-bg {
+    background-color: #0282F9;
+}
+
+
+/* chiusura color */
+
+
+/* header */
+
+.up-header {
+    background-color: #0282F9;
+}
+
+.down-header {
+    display: flex;
+    align-items: center;
+    .down-header-sx {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        img {
+            height: 40px;
+        }
+    }
+    .down-header-center {
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #797979;
+            margin: 0 10px;
+        }
+    }
+    .down-header-dx {
+        input {
+            border: 0;
+            border-bottom: 2px solid #0282F9;
+        }
+    }
+}
+
+.jumbotron-dc {
+    height: 400px;
+    background-image: url('./../img/jumbotron.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+
+/* chiusura header */
+
+
+/* main home */
+
+.comic {
+    height: 200px;
+    img {
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        aspect-ratio: 1/1;
+    }
+}
+
+.max-height {
+    max-height: 70px;
+}
+
+
+/* chiusura main home */
+
+
+/* footer */
+
+.layout-footer {
+    height: 100%;
+}
+
+.up-footer {
+    background-image: url('./../img/footer-bg.jpg');
+    background-position-y: top;
+    background-size: cover;
+    .up-footer-dx {
+        background-image: url('./../img/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+}
+
+
+/* chiusura footer */
