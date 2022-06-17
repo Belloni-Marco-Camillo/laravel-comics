@@ -61,7 +61,18 @@
         </div>
         
     </div>
-    <div class="down-footer container d-flex justify-content-between">
+    <div class="down-footer ">
+        <div class="container d-flex justify-content-between">
+            <div class="sing-in">sing-up now!</div>
+            <div class="d-flex">
+                <h3>follow us</h3>
+                <img src="{{asset('img/footer-facebook.png')}}" alt="">
+                <img src="{{asset('img/footer-facebook.png')}}" alt="">
+                <img src="{{asset('img/footer-facebook.png')}}" alt="">
+                <img src="{{asset('img/footer-facebook.png')}}" alt="">
+                <img src="{{asset('img/footer-facebook.png')}}" alt="">
+            </div>
+        </div>
         
         
     </div>

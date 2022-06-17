@@ -11,16 +11,16 @@
         </div>
 
         <div class="down-header-center">
-            <a href="{{route('home')}}">characters</a>
-            <a href="{{route('home')}}">comics</a>
-            <a href="{{route('home')}}">movies</a>
-            <a href="{{route('home')}}">tv</a>
-            <a href="{{route('home')}}">games</a>
-            <a href="{{route('home')}}">collectibles</a>
-            <a href="{{route('home')}}">videos</a>
-            <a href="{{route('home')}}">fans</a>
-            <a href="{{route('home')}}">news</a>
-            <a href="{{route('home')}}">shop</a>
+            <a href="{{Route::currentRouteName() === 'characters' ? 'text-primary' : ''}} {{-- {{route('characters')}} --}} ">characters</a>
+            <a href="{{Route::currentRouteName() === 'comic' ? 'text-primary' : ''}}">comics</a>
+            <a href="{{Route::currentRouteName() === 'movies' ? 'text-primary' : ''}}">movies</a>
+            <a href="{{Route::currentRouteName() === 'TV' ? 'text-primary' : ''}}">tv</a>
+            <a href="{{Route::currentRouteName() === 'games' ? 'text-primary' : ''}}">games</a>
+            <a href="{{Route::currentRouteName() === 'collectibles' ? 'text-primary' : ''}}">collectibles</a>
+            <a href="{{Route::currentRouteName() === 'viedos' ? 'text-primary' : ''}}">videos</a>
+            <a href="{{Route::currentRouteName() === 'fans' ? 'text-primary' : ''}}">fans</a>
+            <a href="{{Route::currentRouteName() === 'news' ? 'text-primary' : ''}}">news</a>
+            <a href="{{Route::currentRouteName() === 'shop' ? 'text-primary' : ''}}">shop</a>
         </div>
 
         <div class="down-header-dx">

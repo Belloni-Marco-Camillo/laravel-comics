@@ -4,13 +4,16 @@
     <div class="comics text-center">
         <div class="d-flex justify-content-center">
             <div class="row mt-5 container">
-                @forelse($comics as $comic)
-                <div class="col-2 mb-5">
-                    <div class="comic">
-                        <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
-                    </div>
-                    <h4>{{$comic['title']}}</h4>
+                @forelse($comics as $index=>$comic)
+                <div class="col-2 mb-5 text-start">
+                    <a href="{{route('single-comic.show', $index)}}">
+                        <div class="comic ">
+                            <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+                        </div>
+                        <h4>{{$comic['title']}}</h4> 
+                    </a>
                 </div>
+    
                 @empty
                     <p>fanculo</p>
                 @endforelse

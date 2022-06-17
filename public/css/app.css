@@ -10236,13 +10236,13 @@ textarea.form-control-lg {
 
 /* color */
 .primary-color-bg {
-  background-color: #0282F9;
+  background-color: #0282f9;
 }
 
 /* chiusura color */
 /* header */
 .up-header {
-  background-color: #0282F9;
+  background-color: #0282f9;
 }
 
 .down-header {
@@ -10277,6 +10277,11 @@ textarea.form-control-lg {
 
 /* chiusura header */
 /* main home */
+.comics {
+  background-color: #1c1c1c;
+  color: #fffff2;
+}
+
 .comic {
   height: 200px;
 }
@@ -10304,10 +10309,60 @@ textarea.form-control-lg {
   background-position-y: top;
   background-size: cover;
 }
+.up-footer h3 {
+  color: #fffff2;
+}
+.up-footer ul {
+  list-style-type: none;
+}
+.up-footer li {
+  color: #797777;
+  list-style: none;
+  text-align: left;
+}
+.up-footer p {
+  color: #797777;
+}
+.up-footer span {
+  color: #0282f9;
+}
 .up-footer .up-footer-dx {
   background-image: url("./../img/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-position: 50%;
 }
 
+.down-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #303030;
+  height: 100px;
+}
+.down-footer div:nth-child(1) {
+  background-color: #0282f9;
+}
+.down-footer h3 {
+  white-space: nowrap;
+}
+.down-footer img {
+  margin: 0 5px;
+}
+
 /* chiusura footer */
+/* comic show */
+.paralax-img {
+  height: 300px;
+}
+
+.blue-line {
+  height: 100px;
+  background-color: #0282f9;
+}
+.blue-line img {
+  position: relative;
+  bottom: 250px;
+  z-index: 100;
+}
+
+/* chiusura comic show */
